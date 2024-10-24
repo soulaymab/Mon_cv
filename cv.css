@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f0f4f8;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+.img-circle {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #3498db;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.styled-hr {
+    border: none;
+    height: 3px;
+    background-color: #3498db;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.section {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cursus ul li {
+    background-color: #3498db;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #2980b9;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.cmp ul {
+    display: flex;
+    flex-wrap: wrap; 
+    list-style: none; 
+    justify-content: space-around; 
+}
+
+.cmp ul li {
+    width: 30%; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    background-color: #3498db; 
+    color: white; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.cmp ul li:hover {
+    background-color: #2980b9;
+}
+
+.projects {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    background-color: #f0f4f8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projects li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.projects h3 {
+    margin-top: 0;
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+.projects p {
+    font-size: 1em;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.projects a {
+    display: inline-block;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #3498db;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.projects a:hover {
+    background-color: #2980b9;
+}
